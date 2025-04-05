@@ -40,16 +40,16 @@ function Hero() {
         />
         <div className="pt-16 pb-24 sm:pt-24 sm:pb-32 md:pt-32 md:pb-48">
           <h1 className="font-display text-6xl/[0.9] font-medium tracking-tight text-balance text-gray-950 sm:text-8xl/[0.8] md:text-9xl/[0.8]">
-            Close every deal.
+            Redefining brand objectives
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-            Radiant helps you sell more by revealing sensitive information about
-            your customers.
+            Team of industry-specific experienced individuals working along the
+            walk for your brand to become “THE BRAND”
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
-            <Button href="#">Get started</Button>
+            <Button href="#">Why Us</Button>
             <Button variant="secondary" href="/pricing">
-              See pricing
+              Cost Involved
             </Button>
           </div>
         </div>
@@ -62,8 +62,8 @@ function FeatureSection() {
   return (
     <div className="overflow-hidden">
       <Container className="pb-24">
-        <Heading as="h2" className="max-w-3xl">
-          A snapshot of your entire sales pipeline.
+        <Heading as="h2" className="max-w-4xl">
+          Penetrating the market essentials.
         </Heading>
         <Screenshot
           width={1216}
