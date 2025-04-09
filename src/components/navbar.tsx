@@ -8,8 +8,8 @@ import {
 import { Bars2Icon } from '@heroicons/react/24/solid'
 import { motion } from 'framer-motion'
 import { Link } from './link'
-import { Logo } from './logo'
 import { PlusGrid, PlusGridItem, PlusGridRow } from './plus-grid'
+import { Logo } from './logo'
 
 const links = [
   { href: '/pricing', label: 'Pricing' },
@@ -83,6 +83,7 @@ export function Navbar({ banner }: { banner?: React.ReactNode }) {
           <div className="relative flex gap-6">
             <PlusGridItem className="py-3">
               <Link href="/" title="Home">
+                {/* <div>InertialFlux</div> */}
                 <Logo className="h-9" />
               </Link>
             </PlusGridItem>
