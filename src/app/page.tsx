@@ -67,7 +67,8 @@ function FeatureSection() {
             Penetrating the market essentials.
           </Heading>
           <div className="text-2xl">
-            with a five-dimensional, tried and tested strategic approach, it's
+            {/* @ts-ignore */}
+            with a five-dimensional, tried and tested strategic approach, its
             time to reach the right customers
           </div>
         </div>
