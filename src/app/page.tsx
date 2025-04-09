@@ -33,7 +33,7 @@ function Hero() {
               href="/blog/radiant-raises-100m-series-a-from-tailwind-ventures"
               className="flex items-center gap-1 rounded-full bg-fuchsia-950/35 px-3 py-0.5 text-sm/6 font-medium text-white data-hover:bg-fuchsia-950/30"
             >
-              Radiant raises $100M Series A from Tailwind Ventures
+              One step solution for all your problems
               <ChevronRightIcon className="size-4" />
             </Link>
           }
@@ -49,7 +49,7 @@ function Hero() {
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="#">Why Us</Button>
             <Button variant="secondary" href="/pricing">
-              Cost Involved
+              Pricing{' '}
             </Button>
           </div>
         </div>
@@ -62,9 +62,16 @@ function FeatureSection() {
   return (
     <div className="overflow-hidden">
       <Container className="pb-24">
-        <Heading as="h2" className="max-w-4xl">
-          Penetrating the market essentials.
-        </Heading>
+        <div className="flex flex-col gap-6">
+          <Heading as="h2" className="max-w-4xl">
+            Penetrating the market essentials.
+          </Heading>
+          <div className="text-2xl">
+            with a five-dimensional, tried and tested strategic approach, it's
+            time to reach the right customers
+          </div>
+        </div>
+
         <Screenshot
           width={1216}
           height={768}
@@ -80,15 +87,27 @@ function BentoSection() {
   return (
     <Container>
       <Subheading>Sales</Subheading>
-      <Heading as="h3" className="mt-2 max-w-3xl">
-        Know more about your customers than they do.
-      </Heading>
+      <div className="flex flex-col gap-6">
+        <Heading as="h3" className="mt-2 max-w-3xl">
+          In a nutshell :
+        </Heading>
+        <div className="flex flex-col gap-2">
+          <div className="text-2xl">Know what you are signing up for</div>
+          <div className="text-lg">
+            Get ready for a series of customer targeting and retargeting
+            strategies Business in a nutshell is an exchange of commodities
+            between the provider and the customers, with an efficient pipeline
+            to filter out customers with requisite needs, transform your
+            business outlook
+          </div>
+        </div>
+      </div>
 
       <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
         <BentoCard
           eyebrow="Insight"
-          title="Get perfect clarity"
-          description="Radiant uses social engineering to build a detailed financial picture of your leads. Know their budget, compensation package, social security number, and more."
+          title="Thorough Competitive Analysis"
+          description="It's always the rush to be the best, being better still ranks in 2nd position, research analysis of a  series of global competitors to ensure that you lead as the region-specific brand"
           graphic={
             <div className="h-80 bg-[url(/screenshots/profile.png)] bg-[size:1000px_560px] bg-[left_-109px_top_-112px] bg-no-repeat" />
           }
@@ -97,8 +116,8 @@ function BentoSection() {
         />
         <BentoCard
           eyebrow="Analysis"
-          title="Undercut your competitors"
-          description="With our advanced data mining, you’ll know which companies your leads are talking to and exactly how much they’re being charged."
+          title="Technical expertise"
+          description="Integrating advanced features with a smooth-flow website to ensure that every click on the website brings in dollars to the revenue"
           graphic={
             <div className="absolute inset-0 bg-[url(/screenshots/competitors.png)] bg-[size:1100px_650px] bg-[left_-38px_top_-73px] bg-no-repeat" />
           }
@@ -107,8 +126,8 @@ function BentoSection() {
         />
         <BentoCard
           eyebrow="Speed"
-          title="Built for power users"
-          description="It’s never been faster to cold email your entire contact list using our streamlined keyboard shortcuts."
+          title="Expanding markets"
+          description="Reach is the new parameter of checking your win, Experience the extensive reach with a multifunctional website, market penetration strategies, and campaigns that pay off exponentially"
           graphic={
             <div className="flex size-full pt-10 pl-10">
               <Keyboard highlighted={['LeftCommand', 'LeftShift', 'D']} />
@@ -118,15 +137,15 @@ function BentoSection() {
         />
         <BentoCard
           eyebrow="Source"
-          title="Get the furthest reach"
-          description="Bypass those inconvenient privacy laws to source leads from the most unexpected places."
+          title="Advanced Backend"
+          description="With a team of highly trained and skilled backend developers, pipelining features boosting your customer's satisfaction to the height of customer retention"
           graphic={<LogoCluster />}
           className="lg:col-span-2"
         />
         <BentoCard
           eyebrow="Limitless"
-          title="Sell globally"
-          description="Radiant helps you sell in locations currently under international embargo."
+          title="Interactive Interface"
+          description="Never judge a book by its cover, but we always do so. But we got your back with innovative individuals with an approach that understands customers more than the industry traditionals. Get a website interface which defines the story of your brand."
           graphic={<Map />}
           className="max-lg:rounded-b-4xl lg:col-span-2 lg:rounded-br-4xl"
         />
@@ -140,9 +159,18 @@ function DarkBentoSection() {
     <div className="mx-2 mt-2 rounded-4xl bg-gray-900 py-32">
       <Container>
         <Subheading dark>Outreach</Subheading>
-        <Heading as="h3" dark className="mt-2 max-w-3xl">
-          Customer outreach has never been easier.
-        </Heading>
+        <div className="flex flex-col gap-6">
+          <Heading as="h3" dark className="mt-2 max-w-4xl">
+            Understanding customer niche .
+          </Heading>
+          <div className="w-4/5 text-[22px] text-white">
+            Customers are lot more the numbers to the business, when it comes to
+            sales then they are the revenue source , when it comes to social
+            media then they are brand identity and in the end when it comes to
+            the legacy then customers are the brand family that brings the idea
+            to life{' '}
+          </div>
+        </div>
 
         <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
           <BentoCard
