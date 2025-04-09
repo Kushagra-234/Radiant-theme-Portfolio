@@ -60,14 +60,14 @@ function Sitemap() {
           <SitemapLink href="#">API</SitemapLink>
         </SitemapLinks>
       </div>
-      <div>
+      {/* <div>
         <SitemapHeading>Company</SitemapHeading>
         <SitemapLinks>
           <SitemapLink href="#">Careers</SitemapLink>
           <SitemapLink href="/blog">Blog</SitemapLink>
           <SitemapLink href="/company">Company</SitemapLink>
         </SitemapLinks>
-      </div>
+      </div> */}
       <div>
         <SitemapHeading>Support</SitemapHeading>
         <SitemapLinks>
